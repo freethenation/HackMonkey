@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "One-click Kittens",
+  "name": "Hackmonkey",
   "description": "This extension demonstrates a 'browser action' with kittens.",
   "version": "1.0",
 
@@ -9,7 +9,11 @@
     "default_icon": "icon.png",
     "default_popup": "popup.html"
   },
+  "content_scripts": [
+	"matches": ["<all_urls>"],
+	"js": ["<all_urls>"]
+  ]
   "permissions": [
-    "https://secure.flickr.com/"
+    "<all_urls>"
   ]
 }
