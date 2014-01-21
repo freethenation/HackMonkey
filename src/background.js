@@ -19,6 +19,9 @@ HackMonkey.prototype.save = function(skipRefresh){
 };
 //adds the regex / url pair to data object
 HackMonkey.prototype.add = function(regex, url, skipSave){
+  if(typeof(regex)!="string"){
+    regex = regex.source
+  }
   this.data.push({
     id: url,
     regex: regex,
