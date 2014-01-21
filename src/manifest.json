@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Hackmonkey",
-  "description": "This extension demonstrates a 'browser action' with kittens.",
+  "name": "HackMonkey",
+  "description": "Like greasemonkey but... no security, no problem",
   "version": "1.0",
   "content_scripts": [{
 	  "matches": ["<all_urls>"],
