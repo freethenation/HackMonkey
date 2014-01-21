@@ -32,7 +32,8 @@
 	}
 
     chrome.runtime.sendMessage({"message":"gimme"}, function(newScripts){
-      console.log(newScripts); 
+      if(!newScripts) throw "background sent undefined!";
+      console.log(newScripts);
       localStorage.setItem("hackmonkey_scripts", JSON.stringify(newScripts));
       var newScriptsIds = newScripts.map(function(i){ return i.id; });
       newScriptsIds = arrayDiff(newScripts, scriptsThatRan);
