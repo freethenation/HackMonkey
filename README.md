@@ -23,9 +23,9 @@ Using HackMonkey:
 2. Open the background page, listed under Hackmonkey
 3. Open the chrome developer tools and select the console
 4. In console, type some analogue of the following:
-
+```
     hackmonkey.add("https?://google\\\.com/.*", "http://jsbin.com/IHOdIyU/latest.js")
-
+```
 And now, whenever you load a page beginning with google.com, the script "latest.js" will run on that page.
 
-[1] http://www.geocities.com/spunk1111/zoo.htm#monkeys Monkeys courtesy of
+<font color="gray">Monkeys courtesy of: http://www.geocities.com/spunk1111/zoo.htm#monkeys</font>
