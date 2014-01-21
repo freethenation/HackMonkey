@@ -1,12 +1,12 @@
 <pre style="font-family: monospace;">
-        .-"-.            .-"-.            .-"-.    
-      _/_-.-_\_        _/.-.-.\_        _/.-.-.\_  
-     / __} {__ \      /|( o o )|\      ( ( o o ) ) 
-    / //  "  \\ \    | //  "  \\ |      |/  "  \|  
-   / / \'---'/ \ \  / / \'---'/ \ \      \'/^\'/   
-   \ \_/`"""`\_/ /  \ \_/`"""`\_/ /      /`\ /`\   
-    \           /    \           /      /  /|\  \  
-     see no evil     hear no evil     speak no evil </pre>[*][1]
+        .-"-.            .-"-.            .-"-. 
+      _/_-.-_\_        _/.-.-.\_        _/.-.-.\_
+     / __} {__ \      /|( o o )|\      ( ( o o ) )
+    / //  "  \\ \    | //  "  \\ |      |/  "  \|
+   / / \'---'/ \ \  / / \'---'/ \ \      \'/^\'/
+   \ \_/`"""`\_/ /  \ \_/`"""`\_/ /      /`\ /`\     
+    \           /    \           /      /  /|\  \    
+     see no evil     hear no evil     speak no evil </pre>
 HackMonkey
 ==========
 HackMonkey is a Chrome/Chomium extension which allows the execution of arbitrary javascript code on arbitrary pages. Use it with appropriate discretion, as arbitrary script execution is inherently dangerous.

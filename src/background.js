@@ -58,6 +58,7 @@ HackMonkey.prototype.refresh = function(callback){
       }
     });
   });
+  callbackIfDone();
 };
 //populates the data object from chrome local storage
 HackMonkey.prototype.load = function(skipRefresh){
@@ -67,6 +68,11 @@ HackMonkey.prototype.load = function(skipRefresh){
   	  this.refresh();
     }
   }).bind(this));
+};
+//clears add added urls and saves
+HackMonkey.prototype.clear = function(){
+  this.data = [];
+  this.save();
 };
 
 var hackmonkey = new HackMonkey();
