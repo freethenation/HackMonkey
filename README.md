@@ -6,10 +6,8 @@
    / / \'---'/ \ \  / / \'---'/ \ \      \'/^\'/
    \ \_/`"""`\_/ /  \ \_/`"""`\_/ /      /`\ /`\     
     \           /    \           /      /  /|\  \    
-     see no evil     hear no evil     speak no evil </pre>
+     see no evil     hear no evil     speak no evil </pre>[*][1]
 HackMonkey
-
-
 ==========
 HackMonkey is a Chrome/Chomium extension which allows the execution of arbitrary javascript code on arbitrary pages. Use it with appropriate discretion, as arbitrary script execution is inherently dangerous.
 
@@ -27,4 +25,4 @@ Using HackMonkey:
 
 And now, whenever you load a page beginning with google.com, the script "latest.js" will run on that page.
 
-[1] Monkeys courtesy: http://www.geocities.com/spunk1111/zoo.htm#monkeys
+[1] http://www.geocities.com/spunk1111/zoo.htm#monkeys Monkeys courtesy of
