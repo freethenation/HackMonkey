@@ -1,19 +1,17 @@
 {
   "manifest_version": 2,
-
   "name": "Hackmonkey",
   "description": "This extension demonstrates a 'browser action' with kittens.",
   "version": "1.0",
-
-  "browser_action": {
-    "default_icon": "icon.png",
-    "default_popup": "popup.html"
-  },
-  "content_scripts": [
-	"matches": ["<all_urls>"],
-	"js": ["<all_urls>"]
-  ]
+  "content_scripts": [{
+	  "matches": ["<all_urls>"],
+	  "js": ["eval.js"],
+    "run_at": "document_start"
+  }],
   "permissions": [
     "<all_urls>"
-  ]
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
 }
