@@ -15,7 +15,7 @@ Installing HackMonkey:
 
 1. Go to chrome://extensions
 2. Enable developer mode.
-3. Install an unpacked extension, and navigate to the HackMonkey folder.
+3. Install an unpacked extension, and navigate to the HackMonkey src folder.
 
 Using HackMonkey:
 
