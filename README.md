@@ -25,7 +25,7 @@ Using HackMonkey:
 4. In console, type some analogue of the following:
 
 ```
-    hackmonkey.add("https?://google\\\.com/.*", "http://jsbin.com/IHOdIyU/latest.js")
+    hackmonkey.add("https?://www\\\.google\\\.com/.*", "http://jsbin.com/IHOdIyU/latest.js")
 ```
 
 And now, whenever you load a page beginning with google.com, the script "latest.js" will run on that page.
