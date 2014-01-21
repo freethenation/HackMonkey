@@ -9,11 +9,11 @@ var HackMonkey = function(){
 //persit data object to chromes local storage
 HackMonkey.prototype.save = function(skipRefresh){
   if(skipRefresh){
-  	chrome.storage.sync.set({"hackmonkey_scripts": hackmonkey.data});
+  	chrome.storage.local.set({"hackmonkey_scripts": hackmonkey.data});
   }
   else {
     this.refresh(function(){
-      chrome.storage.sync.set({"hackmonkey_scripts": hackmonkey.data})
+      chrome.storage.local.set({"hackmonkey_scripts": hackmonkey.data})
     });
   }
 };
@@ -62,7 +62,7 @@ HackMonkey.prototype.refresh = function(callback){
 };
 //populates the data object from chrome local storage
 HackMonkey.prototype.load = function(skipRefresh){
-  chrome.storage.sync.get(["hackmonkey_scripts"], (function(data){
+  chrome.storage.local.get(["hackmonkey_scripts"], (function(data){
     this.data = data["hackmonkey_scripts"] || [];
     if(!skipRefresh){
   	  this.refresh();
